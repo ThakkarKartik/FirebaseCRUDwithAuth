@@ -1,0 +1,56 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/txtName"
+        android:padding="10sp"
+        android:hint="User Name"
+        android:layout_margin="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/txtEmail"
+        android:padding="10sp"
+        android:hint="E-Mail"
+        android:layout_margin="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/txtConactNo"
+        android:padding="10sp"
+        android:hint="Contact Number"
+        android:layout_margin="10sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/txtPassword"
+        android:padding="10sp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_margin="10sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/txtCPassword"
+        android:padding="10sp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:layout_margin="10sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSave"
+        android:padding="20sp"
+        android:text="register"
+        android:layout_margin="20sp"/>
+
+</LinearLayout>

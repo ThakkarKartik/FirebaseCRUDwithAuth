@@ -1,0 +1,30 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:layout_margin="5sp"
+        android:id="@+id/txtName"
+        android:hint="Enter Artist Name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:layout_margin="5sp"
+        android:id="@+id/txtGenre"
+        android:hint="Enter Artist Genre"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:padding="20sp"
+        android:layout_margin="10sp"
+        android:id="@+id/btnSave"/>
+
+</LinearLayout>
